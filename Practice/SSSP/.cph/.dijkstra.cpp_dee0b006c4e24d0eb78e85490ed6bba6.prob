@@ -1,0 +1,1 @@
+{"name":"Local: dijkstra","url":"/Users/shuvo/CSE208-DSA/Practice/SSSP/dijkstra.cpp","tests":[{"id":1765298764430,"input":"5\n10\n0 1 5\n1 2 4\n2 3 4\n3 4 8\n4 0 7\n0 2 2\n1 3 2\n2 4 9\n0 3 6\n2 4 3\n2","output":"10 15 0 4 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/shuvo/CSE208-DSA/Practice/SSSP/dijkstra.cpp","group":"local","local":true}

@@ -10,3 +10,5 @@ coverage/
 *.bak
 *.swp
 Thumbs.db
+.tmp.driveupload
+.tmp.drivedownload
