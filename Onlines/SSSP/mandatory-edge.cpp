@@ -51,8 +51,9 @@ int main() {
         radj[b].push_back({a, c});
     }
 
-    int k;
-    cin >> k; // mandatory node
+    int x, y;
+    ll w;
+    cin >> x >> y >> w; // mandatory edge
 
     vector<vector<ll>> d1(n + 1, vector<ll>(2, INF));
     vector<vector<ll>> d2(n + 1, vector<ll>(2, INF));
@@ -61,13 +62,18 @@ int main() {
     dijkstra(n, radj, d2);
 
     ll ans = INF;
+
+    // coupon before or after
     for (int a = 0; a <= 1; a++) {
         for (int b = 0; b <= 1; b++) {
             if (a + b <= 1) {
-                ans = min(ans, d1[k][a] + d2[k][b]);
+                ans = min(ans, d1[x][a] + w + d2[y][b]);
             }
         }
     }
+
+    // coupon on mandatory edge
+    ans = min(ans, d1[x][0] + w / 2 + d2[y][0]);
 
     cout << ans << "\n";
     return 0;
