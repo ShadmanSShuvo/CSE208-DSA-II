@@ -12,3 +12,5 @@ coverage/
 Thumbs.db
 .tmp.driveupload
 .tmp.drivedownload
+.cph/
+*.exe

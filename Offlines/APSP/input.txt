@@ -1,0 +1,8 @@
+3 
+USD 
+AUD 
+BDT 
+3 
+USD 1.5 AUD 
+AUD 81.85 BDT 
+BDT 0.0082 USD

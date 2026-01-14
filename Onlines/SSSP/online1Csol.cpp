@@ -100,10 +100,8 @@ int main() {
 
     if (ans >= INF) {
         cout << "Not possible" << endl;
-        [cite:25]
     } else {
         cout << ans << endl;
-        [cite:28]
     }
 
     return 0;
