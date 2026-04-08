@@ -14,3 +14,9 @@ Thumbs.db
 .tmp.drivedownload
 .cph/
 *.exe
+
+*.bin
+*.log
+*.tmp
+*.bak
+*.swp
